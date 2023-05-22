@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+   
+
+
+.image {
+    margin: 20px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center;
+    margin: 200px auto 0 auto;
+    
+    
+    
+
+}
+
+.formLogin label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 500;
+}
+
+
+.formLogin fieldset {
+    background: #ffffff;
+    border-radius: 50px;
+    border-color: #f59264;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+.formLogin legend {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+#user, #password, .button {
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    padding: 7px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif; 
+
+
+}
+
+#user, #password {
+    background: #ffcfa3;
+}
+
+#user:hover, #password:hover {
+    background: #fabf87;
+}
+
+.button {
+    background: #ffab84;
+    margin-top: 30px;
+    margin: 30px auto 10px;
+    border-radius: 5px;
+    width: 80px;
+
+}
+
+.button:hover {
+    background: #fda379;
+    margin: 30px auto 10px;
+    border-radius: 5px;
+    width: 85px;
+    
+
+}
+
+
+#user {
+    margin-bottom: 15px;
+    
+}
+
+
